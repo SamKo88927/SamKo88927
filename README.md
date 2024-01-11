@@ -6,9 +6,9 @@ Software engineer with 2+ years of experience. Worked for innovative startups, l
 
 Besides developing
 
-## 💻 Interesting Contributions
+## 💻 Following Contributions
 
-[![Aribnb](https://github-readme-stats.vercel.app/api/pin/?username=airbnb&repo=javascript&theme=dark&show_owner=true)](https://github.com/airbnb/javascript/pull/1693)
+[![Aribnb](https://github-readme-stats.vercel.app/api/pin/?username=airbnb&repo=javascript&theme=dark&show_owner=true)](https://github.com/airbnb/javascript)
 
 ## 🛠️ Technologies & Tools
 
