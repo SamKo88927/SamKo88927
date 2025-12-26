@@ -1,6 +1,6 @@
 ### Hi there 👋 I'm Sam Ko
 
-Software engineer with 2+ years of experience. Worked for innovative startups, large enterprise products, and award-winning agencies. Familiar with both remote, and in-office roles. Always seeking to take ownership of the project and deliver faster than expected. Comfortable for web, mobile App, and API development.
+Worked for innovative startups, large enterprise products, and award-winning agencies. Familiar with both remote, and in-office roles. Always seeking to take ownership of the project and deliver faster than expected. Comfortable for web, mobile App, and API development.
 
 ## 📚 Writing
 
