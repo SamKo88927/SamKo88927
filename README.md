@@ -37,7 +37,7 @@ so the model can correct itself. On PyPI (`uvx roarm-mcp`) and in the official M
 The safety layer from roarm-mcp, generalised to **any MuJoCo-modelled arm**. Language models refuse unsafe requests
 in chat but comply once they hold a robot's tools; mjguard puts the check below the model. A small TOML config names
 the MJCF, joints and tool frame; every motion is planned and every waypoint checked against the robot's own model.
-Ships presets for the UR5e and Franka Panda (`uvx mjguard serve panda`).
+Ships 13 tested presets, from the LeRobot SO-ARM100 to the UR10e and Franka Panda (`uvx mjguard serve so_arm100`).
 
 <a href="https://github.com/SamKo88927/mjguard"><img src="https://raw.githubusercontent.com/SamKo88927/mjguard/main/docs/media/demo.gif" alt="mjguard demo: a simulated Franka Panda refuses a move into the table and an out-of-reach move, then follows the suggested safe point" width="480"></a>
 
