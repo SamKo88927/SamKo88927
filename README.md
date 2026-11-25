@@ -29,6 +29,18 @@ so the model can correct itself. On PyPI (`uvx roarm-mcp`) and in the official M
 
 <a href="https://github.com/SamKo88927/roarm-mcp"><img src="https://raw.githubusercontent.com/SamKo88927/roarm-mcp/main/docs/media/demo.gif" alt="roarm-mcp demo: a simulated RoArm-M3 moves to checked targets and refuses unsafe ones" width="560"></a>
 
+### [mjguard](https://github.com/SamKo88927/mjguard)
+
+[![PyPI](https://img.shields.io/pypi/v/mjguard)](https://pypi.org/project/mjguard/)
+[![CI](https://github.com/SamKo88927/mjguard/actions/workflows/ci.yml/badge.svg)](https://github.com/SamKo88927/mjguard/actions/workflows/ci.yml)
+
+The safety layer from roarm-mcp, generalised to **any MuJoCo-modelled arm**. Language models refuse unsafe requests
+in chat but comply once they hold a robot's tools; mjguard puts the check below the model. A small TOML config names
+the MJCF, joints and tool frame; every motion is planned and every waypoint checked against the robot's own model.
+Ships presets for the UR5e and Franka Panda (`uvx mjguard serve panda`).
+
+<a href="https://github.com/SamKo88927/mjguard"><img src="https://raw.githubusercontent.com/SamKo88927/mjguard/main/docs/media/demo.gif" alt="mjguard demo: a simulated Franka Panda refuses a move into the table and an out-of-reach move, then follows the suggested safe point" width="480"></a>
+
 ## Stack
 
 TypeScript · Python · Node.js · Postgres · Redis · GCP · AWS · Kubernetes · Terraform · ONNX · MuJoCo
